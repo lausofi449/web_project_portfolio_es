@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "OpenSans";
+  src:
+    url("../fonts/OpenSans-Regular.woff"),
+    url("../fonts/OpenSans-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Bold.woff"), url("../fonts/OpenSans-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src:
+    url("../fonts/OpenSans-SemiBold.woff"),
+    url("../fonts/OpenSans-SemiBold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ArchivoBlack";
+  src:
+    url("../fonts/ArchivoBlack-Regular.woff"),
+    url("../fonts/ArchivoBlack-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 1440px;
+  height: 1998px;
+  margin-left: auto;
+  margin-top: 89px;
+}
+
+.header-title {
+  display: flex;
+  padding-left: 120px;
+  width: 793px;
+  height: 159px;
+}
+
+.h1 {
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+}
