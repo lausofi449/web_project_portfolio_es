@@ -35,18 +35,95 @@
 body {
   width: 1440px;
   height: 1998px;
-  margin-left: auto;
-  margin-top: 89px;
+  background: #111111;
 }
 
-.header-title {
-  display: flex;
-  padding-left: 120px;
+.header {
+  position: relative;
   width: 793px;
-  height: 159px;
+  height: 156px;
+  opacity: 1;
+  top: 89px;
+  left: 120px;
+}
+.header-title {
+  font-family: ArchivoBlack;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 120px;
+  letter-spacing: 3px;
+  color: #ffffff;
 }
 
-.h1 {
+.subtitulo {
+  width: 800px;
+  height: 25px;
+  opacity: 1;
+  top: 150px;
+  font-family: OpenSans;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 0%;
+  color: #ffffff80;
+}
+
+.descripcion {
+  width: 300%;
+  height: 150%;
+  padding-top: 50px;
+  opacity: 1;
+  font-family: "OpenSans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 80px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.botones {
+  font-family: "OpenSans";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  display: flex;
+  gap: 80px;
+  flex-wrap: nowrap;
+}
+
+.botones a,
+::after {
+  content: "";
+  position: relative;
+  width: 50;
+  height: 15px;
+  top: 15px;
+  background: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%);
+}
+
+.botones a,
+::after {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.main {
+  margin-left: 120px;
+  margin-top: 1250px;
+}
+.main-titulo {
+  color: #ffffff;
+  font-family: "ArchivoBlack";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 120px;
+  letter-spacing: 3px;
 }
 
 @media screen and (max-width: 1440px) {
