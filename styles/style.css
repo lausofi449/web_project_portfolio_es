@@ -33,8 +33,8 @@
 }
 
 body {
-  width: 1440px;
-  height: 1998px;
+  width: 1440;
+  height: 1024;
   background: #111111;
 }
 
@@ -83,6 +83,13 @@ body {
   color: #ffffff;
 }
 
+.imagen img {
+  display: flex;
+  height: auto;
+  border-radius: 8px;
+  padding-left: 400%;
+  margin-top: -120%;
+}
 .botones {
   font-family: "OpenSans";
   font-weight: 600;
@@ -91,25 +98,23 @@ body {
   display: flex;
   gap: 80px;
   flex-wrap: nowrap;
+  color: #ffffff;
+  position: relative;
 }
 
+.botones a {
+  color: #ffffff;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+}
 .botones a,
 ::after {
   content: "";
-  position: relative;
   width: 50;
   height: 15px;
   top: 15px;
   background: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%);
-}
-
-.botones a,
-::after {
-  text-decoration: none;
-  color: #ffffff;
-  position: relative;
-  white-space: nowrap;
-  flex-shrink: 0;
 }
 
 .main {
@@ -124,6 +129,18 @@ body {
   font-size: 40px;
   line-height: 120px;
   letter-spacing: 3px;
+}
+
+.iconos {
+  display: flex;
+  gap: 680px;
+  flex-wrap: nowrap;
+}
+
+.iconos img {
+  width: 250px;
+  height: 250px;
+  margin-top: 70px;
 }
 
 @media screen and (max-width: 1440px) {
