@@ -44,7 +44,7 @@ body {
   height: 156px;
   opacity: 1;
   top: 89px;
-  left: 120px;
+  left: 190px;
 }
 .header-title {
   font-family: ArchivoBlack;
@@ -90,6 +90,16 @@ body {
   padding-left: 400%;
   margin-top: -120%;
 }
+
+.botones a,
+::after {
+  content: "";
+  width: 50;
+  height: 15px;
+  top: 15px;
+  background: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%);
+}
+
 .botones {
   font-family: "OpenSans";
   font-weight: 600;
@@ -108,17 +118,9 @@ body {
   text-decoration: none;
   white-space: nowrap;
 }
-.botones a,
-::after {
-  content: "";
-  width: 50;
-  height: 15px;
-  top: 15px;
-  background: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%);
-}
 
 .main {
-  margin-left: 120px;
+  margin-left: 150px;
   margin-top: 1250px;
 }
 .main-titulo {
@@ -126,21 +128,137 @@ body {
   font-family: "ArchivoBlack";
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 43px;
   line-height: 120px;
   letter-spacing: 3px;
 }
 
 .iconos {
   display: flex;
-  gap: 680px;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .iconos img {
   width: 250px;
   height: 250px;
   margin-top: 70px;
+}
+
+.proyectos {
+  padding-top: 150px;
+}
+
+.titulo-proyecto {
+  font-family: ArchivoBlack;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.contenedor-proyectos {
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+  margin-left: 500px;
+  padding-top: 50px;
+}
+
+.card {
+  width: 2000px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.imagen-card {
+  position: relative;
+  aspect-ratio: 16/9;
+}
+
+.imagen-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.7));
+  z-index: 1;
+}
+
+.iconos-card {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.iconos-card img {
+  width: 110px;
+  height: 110px;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.contenido-card {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.contenido-card h3 {
+  margin: 0;
+  color: #ffffff;
+  font-family: OpenSans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 65px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.contenido-card p {
+  font-size: 14px;
+  color: #ccc;
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 5%;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #6d6dff;
+  font-family: "Opensans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 20px;
+  justify-content: end;
+  gap: 30px;
+}
+
+.links img {
+  width: 50px;
+  height: 50px;
+  opacity: 3;
 }
 
 @media screen and (max-width: 1440px) {
