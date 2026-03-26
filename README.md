@@ -22,3 +22,4 @@ Técnicas utilizadas
 - Control de layout y alineación de componentes
 
 Enlace al proyecto
+git@github.com:lausofi449/web_project_portfolio_es.git
