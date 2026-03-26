@@ -44,8 +44,25 @@ body {
   opacity: 1;
   top: 89px;
   left: 190px;
-  z-index: 2;
+  z-index: 1;
 }
+
+.header::before {
+  content: "";
+  position: absolute;
+
+  top: 75%;
+  right: -200px;
+  transform: translate(190%, 5%);
+
+  width: 1800px;
+  height: 1800px;
+
+  background: radial-gradient(circle, rgba(80, 80, 200, 0.3), transparent 70%);
+
+  z-index: -1;
+}
+
 .header-title {
   font-family: ArchivoBlack;
   font-weight: 400;
@@ -91,15 +108,6 @@ body {
   margin-top: -120%;
 }
 
-.botones a,
-::after {
-  content: "";
-  width: 50;
-  height: 15px;
-  top: 15px;
-  background: linear-gradient(90deg, #4c1a97 0%, #6d6dff 100%);
-}
-
 .botones {
   font-family: "OpenSans";
   font-weight: 600;
@@ -117,6 +125,12 @@ body {
   position: relative;
   text-decoration: none;
   white-space: nowrap;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #4c1a97, #6d6dff);
+  background-repeat: no-repeat;
+  background-size: 100% 18px;
+  background-position: 0 100%;
+  padding-bottom: 28px;
 }
 
 .main {
@@ -145,10 +159,14 @@ body {
   width: 170px;
   height: 170px;
   padding-bottom: 50px;
+  padding-right: 120px;
 }
 
 .proyectos {
-  overflow: visible;
+  position: relative;
+  z-index: 2;
+  padding-top: 100px;
+  aspect-ratio: 16/9;
 }
 
 .titulo-proyecto {
@@ -164,29 +182,20 @@ body {
 
 .contenedor-proyectos {
   display: flex;
-  justify-content: center;
-  gap: 500px;
-  margin-left: 500px;
-  padding-top: 50px;
+  margin-right: 120px;
+  gap: 100px;
 }
 
 .card {
-  width: 2000%;
-  height: 200%;
-  background: #1a1a1a;
-  border-radius: 12px;
+  background: #1c1c1c;
+  flex-direction: column;
+  display: flex;
   position: relative;
-  margin-bottom: 200px;
+  flex: 1;
 }
 
 .imagen-card {
   position: relative;
-  aspect-ratio: 16/9;
-}
-
-.imagen-card img {
-  width: 100%;
-  height: 100%;
 }
 
 .overlay {
@@ -194,8 +203,8 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.7));
-  z-index: 1;
 }
 
 .iconos-card {
@@ -215,8 +224,10 @@ body {
 }
 
 .contenido-card {
-  padding-top: 50px;
-  padding-left: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .contenido-card h3 {
@@ -243,7 +254,8 @@ body {
 
 .links {
   display: flex;
-  gap: 30px;
+  gap: 40px;
+  margin-top: auto;
 }
 
 .links a {
@@ -256,70 +268,73 @@ body {
   line-height: 20px;
   justify-content: end;
   gap: 30px;
+  padding-bottom: 60px;
 }
 
 .links img {
   width: 50px;
   height: 50px;
   opacity: 3;
+  padding-left: 30px;
 }
 
 .footer {
   position: relative;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   text-align: center;
   z-index: 1;
+  padding-top: 300px;
 }
 
 .footer::before {
   content: "";
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
 
-  top: 75%;
-  left: 42%;
-  transform: translateX(-50%, -80%);
-
-  width: 900px;
-  height: 900px;
+  width: 1990px;
+  height: 1600px;
 
   background: radial-gradient(circle, rgba(80, 80, 200, 0.4), transparent 70%);
 
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
 }
 
 .footer h2 {
-  font-size: 40px;
-  margin-bottom: 10px;
   color: #ffffff;
   font-family: "ArchivoBlack";
-  font-weight: 400;
   font-style: normal;
-  font-size: 80px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
+  font-weight: 400;
+  font-size: 100px;
+  margin: 0px;
+  letter-spacing: 3px;
 }
 
 .email {
   color: #6d6dff;
-  margin-bottom: 30px;
   font-family: "Opensans";
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
-  line-height: 100%;
+  font-size: 60px;
   letter-spacing: 0%;
   text-align: center;
+  padding-top: 50px;
 }
 
 .redes {
   display: flex;
-  justify-content: center;
-  gap: 25px;
+  gap: 180px;
+  padding-top: 80px;
 }
 
 .redes img {
-  width: 25px;
+  width: 100px;
   opacity: 0.8;
   transition: 0.3s;
 }
