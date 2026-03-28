@@ -41,7 +41,6 @@ body {
   position: relative;
   width: 793px;
   height: 156px;
-  opacity: 1;
   top: 89px;
   left: 190px;
   z-index: 1;
@@ -87,8 +86,6 @@ body {
 }
 
 .descripcion {
-  width: 300%;
-  height: 150%;
   padding-top: 50px;
   opacity: 1;
   font-family: "OpenSans";
@@ -191,7 +188,6 @@ body {
   flex-direction: column;
   display: flex;
   position: relative;
-  flex: 1;
 }
 
 .imagen-card {
@@ -274,7 +270,6 @@ body {
 .links img {
   width: 50px;
   height: 50px;
-  opacity: 3;
   padding-left: 30px;
 }
 
@@ -342,9 +337,6 @@ body {
 .redes img:hover {
   opacity: 1;
   transform: scale(1.2);
-}
-
-@media screen and (max-width: 1440px) {
 }
 
 @media screen and (max-width: 768px) {
