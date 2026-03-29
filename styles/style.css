@@ -219,6 +219,7 @@ h1 {
   height: 44px;
   top: 891px;
   left: 120px;
+  margin: 0%;
 }
 
 .imagen-card img {
@@ -276,6 +277,7 @@ h1 {
   height: 33px;
   top: 1345px;
   left: 150px;
+  margin: 0%;
 }
 
 .contenido-card p {
@@ -291,111 +293,161 @@ h1 {
   height: 175px;
   top: 1398px;
   left: 150px;
+  margin: 0%;
 }
 
-.links {
-  display: flex;
-  gap: 40px;
-  margin-top: auto;
-}
-
-.links a {
-  text-decoration: none;
-  color: #6d6dff;
-  font-family: "Opensans";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-  line-height: 20px;
-  justify-content: end;
-  gap: 30px;
-  padding-bottom: 60px;
-}
-
-/*
-
-.links {
-  display: flex;
-  gap: 40px;
-  margin-top: auto;
-}
-
-.links a {
-  text-decoration: none;
-  color: #6d6dff;
-  font-family: "Opensans";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-  line-height: 20px;
-  justify-content: end;
-  gap: 30px;
-  padding-bottom: 60px;
-}
-
-.links img {
-  width: 50px;
-  height: 50px;
-  padding-left: 30px;
-}
-
-.footer {
-  position: relative;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
-  z-index: 1;
-  padding-top: 300px;
-}
-
-.footer::before {
-  content: "";
+.Demo {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -30%);
+  width: 132px;
+  height: 22px;
+  top: 1603px;
+  left: 150px;
+}
 
-  width: 1990px;
-  height: 1600px;
+.GitHub {
+  position: absolute;
+  width: 83px;
+  height: 22px;
+  top: 1603px;
+  left: 302px;
+}
 
-  background: radial-gradient(circle, rgba(80, 80, 200, 0.4), transparent 70%);
+.imagen-card2 img {
+  position: absolute;
+  top: 985px;
+  left: 730px;
+  width: 590px;
+  height: 330px;
+}
+.overlay2 {
+  position: absolute;
+  top: 985px;
+  left: 730px;
+  width: 590px;
+  height: 330px;
+  overflow: hidden;
+  background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.7));
+}
 
-  z-index: -1;
-  pointer-events: none;
+.iconos-card2 img {
+  width: 40px;
+  height: 40px;
+  top: 1265px;
+}
+
+.tercero {
+  padding-left: 20px;
+}
+
+.cuarto {
+  padding-left: 80px;
+}
+
+.card-2 {
+  position: absolute;
+  background-color: #1c1c1c;
+  width: 590px;
+  height: 330px;
+  top: 1315px;
+  left: 730px;
+}
+
+.contenido-card2 h3 {
+  position: absolute;
+  font-family: "OpenSans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #ffffff;
+
+  width: 143px;
+  height: 33px;
+  top: 1345px;
+  left: 760px;
+  margin: 0%;
+}
+
+.contenido-card2 p {
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+
+  width: 530px;
+  height: 25px;
+  top: 1398px;
+  left: 760px;
+  margin: 0%;
+}
+
+.Demo2 {
+  position: absolute;
+  width: 132px;
+  height: 22px;
+  top: 1603px;
+  left: 760px;
+}
+
+.Github2 {
+  position: absolute;
+  width: 83px;
+  height: 22px;
+  top: 1603px;
+  left: 912px;
 }
 
 .footer h2 {
-  color: #ffffff;
+  position: absolute;
   font-family: "ArchivoBlack";
-  font-style: normal;
   font-weight: 400;
-  font-size: 100px;
-  margin: 0px;
-  letter-spacing: 3px;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+
+  width: 201px;
+  height: 44px;
+  top: 1755px;
+  left: 636px;
+  margin: 0%;
 }
 
 .email {
-  color: #6d6dff;
-  font-family: "Opensans";
+  position: absolute;
+  font-family: "OpenSans";
   font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
-  letter-spacing: 0%;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0px;
   text-align: center;
-  padding-top: 50px;
+  color: #6d6dff;
+
+  width: 194px;
+  height: 25px;
+  top: 1819px;
+  left: 624px;
+  margin: 0%;
 }
 
 .redes {
+  position: absolute;
   display: flex;
-  gap: 180px;
-  padding-top: 80px;
+  gap: 120px;
+  margin: 0%;
+  justify-content: center;
+  left: 552px;
 }
 
 .redes img {
-  width: 100px;
+  position: absolute;
+  top: 1874px;
+  width: 24px;
+  height: 24px;
   opacity: 0.8;
   transition: 0.3s;
 }
@@ -405,7 +457,17 @@ h1 {
   transform: scale(1.2);
 }
 
-*/
+.footer::after {
+  content: "";
+  position: absolute;
+  top: 1584px;
+  left: 357px;
+  width: 760px;
+  height: 418px;
+  background: radial-gradient(circle, rgba(80, 80, 200, 0.4), transparent 70%);
+  z-index: -1;
+}
+
 @media screen and (max-width: 768px) {
 }
 
