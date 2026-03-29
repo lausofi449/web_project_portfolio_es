@@ -32,9 +32,17 @@
   font-style: "Regular";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #111111;
-  margin: auto;
+}
+
+#contacto {
+  position: absolute;
+  top: 1718px;
 }
 
 .header-title {
@@ -412,7 +420,6 @@ h1 {
 
   width: 201px;
   height: 44px;
-  top: 1755px;
   left: 636px;
   margin: 0%;
 }
@@ -427,11 +434,10 @@ h1 {
   text-align: center;
   color: #6d6dff;
 
+  margin-top: 65px;
   width: 194px;
   height: 25px;
-  top: 1819px;
   left: 624px;
-  margin: 0%;
 }
 
 .redes {
@@ -441,11 +447,11 @@ h1 {
   margin: 0%;
   justify-content: center;
   left: 552px;
+  margin-top: 117px;
 }
 
 .redes img {
   position: absolute;
-  top: 1874px;
   width: 24px;
   height: 24px;
   opacity: 0.8;
@@ -460,10 +466,10 @@ h1 {
 .footer::after {
   content: "";
   position: absolute;
-  top: 1584px;
   left: 357px;
   width: 760px;
   height: 418px;
+  margin-top: -140px;
   background: radial-gradient(circle, rgba(80, 80, 200, 0.4), transparent 70%);
   z-index: -1;
 }
