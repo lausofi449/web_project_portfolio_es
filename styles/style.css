@@ -475,7 +475,898 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: #111111;
+  }
+
+  #contacto {
+    position: absolute;
+    top: 2247px;
+  }
+
+  .header-title {
+    position: absolute;
+    width: 434px;
+    height: 127px;
+    top: 40px;
+    left: 40px;
+
+    font-family: "ArchivoBlack";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1;
+    color: white;
+    margin: 0%;
+  }
+
+  .header::before {
+    content: "";
+    position: absolute;
+    top: -98px;
+    right: -34px;
+    width: 617px;
+    height: 594px;
+    background: radial-gradient(
+      circle,
+      rgba(80, 80, 200, 0.3),
+      transparent 70%
+    );
+  }
+
+  .subtitulo {
+    position: absolute;
+    width: 452px;
+    height: 50px;
+    top: 181px;
+    left: 40px;
+
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff80;
+    margin: 0%;
+  }
+
+  .descripcion {
+    position: absolute;
+    width: 452px;
+    height: 276px;
+    top: 251px;
+    left: 40px;
+
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin: 0%;
+  }
+
+  .botones {
+    position: absolute;
+    font-family: "OpenSans";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    top: 557px;
+  }
+
+  .Descargar {
+    display: inline-block;
+    width: 115px;
+    height: 25px;
+    left: 40px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .Enlace {
+    display: inline-block;
+    width: 138px;
+    height: 25px;
+    left: 185px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .Hablemos {
+    display: inline-block;
+    width: 88px;
+    height: 25px;
+    left: 353px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .botones a {
+    position: relative;
+    background-image: linear-gradient(90deg, #4c1a97, #6d6dff);
+    background-repeat: no-repeat;
+    background-size: 100% 5px;
+    background-position: bottom;
+    padding-bottom: 5px;
+  }
+
+  .imagen img {
+    position: absolute;
+    width: 216px;
+    height: 280px;
+    top: 40px;
+    left: 512px;
+  }
+
+  .main-titulo {
+    position: absolute;
+    width: 603px;
+    height: 44px;
+    top: 662px;
+    left: 40px;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-family: "ArchivoBlack";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    margin: 0px;
+  }
+
+  .iconos {
+    position: absolute;
+    top: 746px;
+    width: 50px;
+    height: 57px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .html {
+    position: absolute;
+    left: 40px;
+  }
+
+  .css {
+    position: absolute;
+    left: 168px;
+  }
+
+  .js {
+    position: absolute;
+    left: 296px;
+  }
+
+  .page {
+    position: absolute;
+    left: 424px;
+  }
+
+  .git {
+    position: absolute;
+    left: 552px;
+  }
+
+  .chatgpt {
+    position: absolute;
+    left: 680px;
+  }
+
+  .titulo-proyecto {
+    position: absolute;
+    color: #ffffff;
+    font-family: "ArchivoBlack";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0%;
+
+    width: 487px;
+    height: 44px;
+    top: 883px;
+    left: 40px;
+    margin: 0%;
+  }
+
+  .imagen-card img {
+    position: absolute;
+    top: 957px;
+    left: 40px;
+    width: 688px;
+    height: 330px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 927px;
+    left: 40px;
+    width: 688px;
+    height: 330px;
+    padding-top: 30px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.7));
+  }
+
+  .iconos-card img {
+    width: 40px;
+    height: 40px;
+    top: 1237px;
+  }
+
+  .primero {
+    padding-left: 20px;
+  }
+
+  .segundo {
+    padding-left: 80px;
+  }
+
+  .card {
+    background: #1c1c1c;
+    position: absolute;
+    width: 688px;
+    height: 340px;
+    top: 1287px;
+    left: 40px;
+  }
+
+  .contenido-card h3 {
+    position: absolute;
+    color: #ffffff;
+    font-family: "OpenSans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+
+    width: 339px;
+    height: 33px;
+    top: 1317px;
+    left: 70px;
+    margin: 0%;
+  }
+
+  .contenido-card p {
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+
+    width: 628px;
+    height: 175px;
+    top: 1370px;
+    left: 70px;
+    margin: 0%;
+  }
+
+  .Demo {
+    position: absolute;
+    width: 132px;
+    height: 22px;
+    top: 1575px;
+    left: 70px;
+  }
+
+  .GitHub {
+    position: absolute;
+    width: 83px;
+    height: 22px;
+    top: 1575px;
+    left: 222px;
+  }
+
+  .imagen-card2 img {
+    position: absolute;
+    top: 1647px;
+    left: 40px;
+    width: 688px;
+    height: 330px;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 1647px;
+    left: 40px;
+    width: 688px;
+    height: 330px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.7));
+  }
+
+  .iconos-card2 img {
+    width: 40px;
+    height: 40px;
+    top: 1927px;
+  }
+
+  .tercero {
+    padding-left: 20px;
+  }
+
+  .cuarto {
+    padding-left: 80px;
+  }
+
+  .card-2 {
+    position: absolute;
+    background-color: #1c1c1c;
+    width: 688px;
+    height: 190px;
+    top: 1977px;
+    left: 40px;
+  }
+
+  .contenido-card2 h3 {
+    position: absolute;
+    font-family: "OpenSans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: #ffffff;
+
+    width: 143px;
+    height: 33px;
+    top: 2007px;
+    left: 70px;
+    margin: 0%;
+  }
+
+  .contenido-card2 p {
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+
+    width: 628px;
+    height: 25px;
+    top: 2060px;
+    left: 70px;
+    margin: 0%;
+  }
+
+  .Demo2 {
+    position: absolute;
+    width: 132px;
+    height: 22px;
+    top: 2115px;
+    left: 70px;
+  }
+
+  .Github2 {
+    position: absolute;
+    width: 83px;
+    height: 22px;
+    top: 2115px;
+    left: 222px;
+  }
+
+  .footer h2 {
+    position: absolute;
+    font-family: "ArchivoBlack";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+
+    width: 201px;
+    height: 44px;
+    left: 248px;
+    margin: 0%;
+  }
+
+  .email {
+    position: absolute;
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #6d6dff;
+
+    margin-top: 65px;
+    width: 194px;
+    height: 25px;
+    left: 238px;
+  }
+
+  .redes {
+    position: absolute;
+    display: flex;
+    gap: 120px;
+    margin: 0%;
+    justify-content: center;
+    left: 173px;
+    margin-top: 117px;
+  }
+
+  .redes img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+
+  .redes img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  .footer::after {
+    content: "";
+    position: absolute;
+    left: -122px;
+    width: 922px;
+    height: 355px;
+    background: radial-gradient(
+      circle,
+      rgba(80, 80, 200, 0.4),
+      transparent 70%
+    );
+    z-index: -1;
+  }
 }
 
 @media screen and (max-width: 320px) {
+  html {
+    scroll-behavior: smooth;
+    margin: 0px;
+    position: relative;
+  }
+
+  body {
+    background: #111111;
+  }
+
+  #contacto {
+    top: 2376px;
+  }
+
+  .header-title {
+    width: 280px;
+    height: 78px;
+    top: 330px;
+    left: 20px;
+
+    font-family: "ArchivoBlack";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1;
+    color: white;
+  }
+
+  .header::before {
+    content: "";
+    top: -65px;
+    right: 19px;
+    width: 575px;
+    height: 590px;
+    background: radial-gradient(
+      circle,
+      rgba(80, 80, 200, 0.3),
+      transparent 70%
+    );
+  }
+
+  .subtitulo {
+    width: 280px;
+    height: 44px;
+    top: 418px;
+    left: 20px;
+
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff80;
+  }
+
+  .descripcion {
+    width: 280px;
+    height: 330px;
+    top: 482px;
+    left: 20px;
+
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin: 0px;
+  }
+
+  .botones {
+    position: unset;
+    font-family: "OpenSans";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .Descargar {
+    width: 115px;
+    height: 25px;
+    top: 842px;
+    text-decoration: none;
+    color: white;
+    left: 20px;
+  }
+
+  .Enlace {
+    width: 138px;
+    height: 25px;
+    top: 902px;
+    text-decoration: none;
+    color: #ffffff;
+    left: -100px;
+  }
+
+  .Hablemos {
+    width: 88px;
+    height: 25px;
+    top: 932px;
+    text-decoration: none;
+    color: #ffffff;
+    left: 20px;
+  }
+
+  .botones a {
+    background-image: linear-gradient(90deg, #4c1a97, #6d6dff);
+    background-repeat: no-repeat;
+    background-size: 100% 5px;
+    background-position: bottom;
+    padding-bottom: 5px;
+  }
+
+  .imagen img {
+    width: 280px;
+    height: 280px;
+    top: 20px;
+    left: 20px;
+  }
+
+  .main-titulo {
+    width: 280px;
+    height: 60px;
+    top: 1057px;
+    left: 20px;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-family: "ArchivoBlack";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 0px;
+    margin: 0px;
+  }
+
+  .iconos {
+    position: unset;
+    margin: 0px;
+    width: 30px;
+    height: 34.2px;
+  }
+
+  .html {
+    position: absolute;
+    left: 20px;
+    top: 1147px;
+  }
+
+  .css {
+    position: absolute;
+    left: 103px;
+    top: 1147px;
+  }
+
+  .js {
+    position: absolute;
+    left: 186px;
+    top: 1149px;
+  }
+
+  .page {
+    position: absolute;
+    left: 269px;
+    top: 1149px;
+  }
+
+  .git {
+    position: absolute;
+    left: 20px;
+    top: 1211.1px;
+  }
+
+  .chatgpt {
+    position: absolute;
+    left: 103px;
+    top: 1211.2px;
+  }
+
+  .titulo-proyecto {
+    position: absolute;
+    color: #ffffff;
+    font-family: "ArchivoBlack";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 0%;
+
+    width: 280px;
+    height: 60px;
+    top: 1301px;
+    left: 20px;
+    margin: 0%;
+  }
+
+  .imagen-card img {
+    position: absolute;
+    top: 1391px;
+    left: 20px;
+    width: 280px;
+    height: 160px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 1361px;
+    left: 20px;
+    width: 280px;
+    height: 160px;
+    padding-top: 30px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.7));
+  }
+
+  .iconos-card img {
+    width: 20px;
+    height: 20px;
+    top: 1521px;
+  }
+
+  .primero {
+    padding-left: 10px;
+  }
+
+  .segundo {
+    padding-left: 40px;
+  }
+
+  .card {
+    background: #1c1c1c;
+    position: absolute;
+    width: 280px;
+    height: 454px;
+    top: 1551px;
+    left: 20px;
+  }
+
+  .contenido-card h3 {
+    position: absolute;
+    color: #ffffff;
+    font-family: "OpenSans";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+
+    width: 260px;
+    height: 54px;
+    top: 1571px;
+    left: 40px;
+    margin: 0%;
+  }
+
+  .contenido-card p {
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+
+    width: 240px;
+    height: 308px;
+    top: 1635px;
+    left: 40px;
+    margin: 0%;
+  }
+
+  .Demo {
+    position: absolute;
+    width: 132px;
+    height: 22px;
+    top: 1963px;
+    left: 40px;
+  }
+
+  .GitHub {
+    position: absolute;
+    width: 83px;
+    height: 22px;
+    top: 1963px;
+    left: 192px;
+  }
+
+  .imagen-card2 img {
+    position: absolute;
+    top: 2015px;
+    left: 20px;
+    width: 280px;
+    height: 160px;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 2015px;
+    left: 20px;
+    width: 280px;
+    height: 160px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, transparent 60%, rgba(0, 0, 0, 0.7));
+  }
+
+  .iconos-card2 img {
+    width: 20px;
+    height: 20px;
+    top: 2145px;
+  }
+
+  .tercero {
+    padding-left: 10px;
+  }
+
+  .cuarto {
+    padding-left: 35px;
+  }
+
+  .card-2 {
+    position: absolute;
+    background-color: #1c1c1c;
+    width: 280px;
+    height: 141px;
+    top: 2175px;
+    left: 20px;
+  }
+
+  .contenido-card2 h3 {
+    position: absolute;
+    font-family: "OpenSans";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0px;
+    color: #ffffff;
+
+    width: 240px;
+    height: 27px;
+    top: 2195px;
+    left: 40px;
+    margin: 0%;
+  }
+
+  .contenido-card2 p {
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 0px;
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    width: 240px;
+    height: 22px;
+    top: 2232px;
+    left: 40px;
+    margin: 0%;
+  }
+
+  .Demo2 {
+    position: absolute;
+    width: 132px;
+    height: 22px;
+    top: 2274px;
+    left: 40px;
+  }
+
+  .Github2 {
+    position: absolute;
+    width: 83px;
+    height: 22px;
+    top: 2274px;
+    left: 192px;
+  }
+
+  .footer h2 {
+    position: absolute;
+    font-family: "ArchivoBlack";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+
+    width: 141px;
+    height: 30px;
+    left: 90px;
+    margin: 0%;
+  }
+
+  .email {
+    position: absolute;
+    font-family: "OpenSans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #6d6dff;
+
+    margin-top: 60px;
+    width: 194px;
+    height: 25px;
+    left: 62px;
+  }
+
+  .redes {
+    position: absolute;
+    display: flex;
+    gap: 70px;
+    margin: 0%;
+    justify-content: center;
+    left: 57px;
+    margin-top: 117px;
+  }
+
+  .redes img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+
+  .redes img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  .footer::after {
+    content: "";
+    position: absolute;
+    left: -135px;
+    width: 482px;
+    height: 286px;
+    background: radial-gradient(
+      circle,
+      rgba(80, 80, 200, 0.4),
+      transparent 70%
+    );
+    z-index: -1;
+  }
 }
